@@ -1,0 +1,49 @@
+object frmMain: TfrmMain
+  Left = 294
+  Height = 584
+  Top = 137
+  Width = 1041
+  Caption = 'Padron K@iros'
+  ClientHeight = 584
+  ClientWidth = 1041
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clBlack
+  Font.Height = -13
+  Font.Name = 'Arial'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Position = poScreenCenter
+  LCLVersion = '1.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 136
+    Top = 0
+    Width = 1041
+    Align = alTop
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 50
+    Top = 534
+    Width = 1041
+    Align = alBottom
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 398
+    Top = 136
+    Width = 1041
+    Align = alClient
+    Color = clWindow
+    Columns = <>
+    TabOrder = 2
+    TitleFont.CharSet = ANSI_CHARSET
+    TitleFont.Color = clBlack
+    TitleFont.Height = -13
+    TitleFont.Name = 'Arial'
+    TitleFont.Pitch = fpVariable
+    TitleFont.Quality = fqDraft
+  end
+end
